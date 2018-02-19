@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+/* Logo and Nav */
+h1{
+    color: white;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 0 0 0 80;
+    padding: 0 40 0 0;
+    float: left;
+}
+nav{
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+    padding: 0 100;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+   display: inline-block;
+    list-style-type: none;
+    float: right;
+}
+
+nav > ul > li > a{
+    color: white;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    float: right;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.top{
+    background-color: rgb(252, 173, 71);
+    padding: 35 0 0 0;
+    font-size: 20px;
+}
+img.orange{
+    width: 130;
+    height: 80px;
+    margin: 0 0 20 0;
+}
+/* logo */
+.orange{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+ul.navigation li{
+    margin: 5px;
+    display: inline-block;
+}
+article{
+    background-color: rgb(231, 245, 245);
+}
+/* search section */
+.searchbox{
+    padding: 12px 20px 12px 20px;
+    box-shadow: 4px 7px;
+    color: grey;
+    width: 250px;
+    height: 35px;
+}
+input{
+    border: none;
+    font-size: 35px;
+    width: 200px;
+    font-weight: lighter;
+    color: black;
+    background-color: lightgrey;
+}
+/* middle section */
+div.middle{
+    margin: 35px;
+    padding: 12px;
+}
+div.right{
+    margin: 35px;
+    padding: 12px;
+}
+.paragraph{
+    color: rgb(252, 173, 71);
+}
+/* buttons section*/
+.buttons{
+    margin: 0;
+    padding: 9 20 9 20;
+    text-align: center;
+}
+button.button2{
+    margin: 0;
+    padding: 20 36 20 36;
+    font-size: 20;
+    border: 0;
+    background-color: rgb(252, 173, 71);
+    color: white;
+    font-weight: lighter;
+}
+button.button1{
+    margin: 0;
+    padding: 20 65 20 65;
+    font-size: 20px;
+    border: 0;
+    margin: 25px;
+    background-color: rgb(118, 202, 118);
+    color: white;
+    font-weight: lighter;
+}
+/* footer */
+footer{
+    margin:0;
+    background-color: rgb(118, 202, 118);
+    text-align: center;
+}
+div.social li{
+    display: inline-block;
+    height: 35px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.fa-facebook{
+    background: rgb(118, 202, 118);
+    color: White;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 30px;
+    opacity: 0.8;
+}
+.fa-instagram{
+    background: rgb(118, 202, 118);
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 30px;
+    opacity: 0.9;
+}
+.fa-twitter{
+    background: rgb(118, 202, 118);
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 30px;
+    opacity: 0.9;
+}
